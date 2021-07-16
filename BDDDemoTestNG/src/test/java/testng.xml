@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="GoogleAppTestSuite">
+
+	<test name="GoogleTestChrome">
+	<parameter name="browser" value="Chrome"/>
+		<classes>
+			<class name="com.cg.project.testsuits.GoogleSerachTest" />
+			<!-- <class name="com.cg.project.testsuits.GoogleCurrencyConverterTest"/> -->
+		</classes>
+	</test>
+
+<!-- <test name="GoogleTestFireFox">
+	<parameter name="browser" value="FireFox"/>
+		<classes>
+			<class name="com.cg.project.testsuits.GoogleSerachTest" />
+			<class name="com.cg.project.testsuits.GoogleCurrencyConverterTest"/>
+		</classes>
+	</test> -->
+</suite> <!-- Suite -->

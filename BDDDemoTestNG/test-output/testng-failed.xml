@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GoogleAppTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GoogleTestChrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.cg.project.testsuits.GoogleSerachTest">
+        <methods>
+          <include name="setUpTestEnv"/>
+          <include name="tearDownTestEnv"/>
+          <include name="testGoogleSerachForInformation"/>
+        </methods>
+      </class> <!-- com.cg.project.testsuits.GoogleSerachTest -->
+    </classes>
+  </test> <!-- GoogleTestChrome(failed) -->
+</suite> <!-- Failed suite [GoogleAppTestSuite] -->
